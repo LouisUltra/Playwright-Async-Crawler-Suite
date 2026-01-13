@@ -1,0 +1,4 @@
+# file: /Users/louis/PycharmProjects/Open Source/Playwright-Async-Crawler-Suite/Playwright-Async-Crawler-Suite/config/__init__.py
+# hypothesis_version: 6.150.1
+
+['${', ':', 'anti_detection', 'browser', 'config.yaml', 'headless', 'load_config', 'logging', 'max_concurrent', 'output', 'r', 'utf-8', 'validate_config', '}']

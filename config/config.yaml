@@ -1,0 +1,52 @@
+# Playwright-Async-Crawler-Suite Configuration
+
+# IMPORTANT: Mock mode is enabled by default to prevent actual network requests
+# Set to false only when you have proper authorization to access target websites
+test_mode: true
+
+browser:
+  headless: false
+  user_data_dir: null  # Optional: path to Chrome profile
+  viewport:
+    width: 1920
+    height: 1080
+  locale: "zh-CN"
+  timezone: "Asia/Shanghai"
+  block_resources:
+    - image
+    - font
+    - media
+  stealth_script: "config/stealth.min.js"
+  user_agents_file: "config/user_agents.txt"
+
+anti_detection:
+  max_concurrent: 3
+  request_delay:
+    min: 1.0
+    max: 3.0
+  retry:
+    max_attempts: 3
+    backoff_factor: 2.0
+
+spiders:
+  instruction:
+    target_url: "https://example.com/drugs"
+    start_page: 1
+    ocr_engine: "paddleocr"  # or "tesseract"
+    
+  ingredient:
+    target_url: "https://example.com/search"
+    drug_types:
+      - domestic
+      - overseas
+    batch_size: 50
+
+output:
+  directory: "output"
+  format: "xlsx"
+
+logging:
+  level: "INFO"
+  file: "logs/crawler.log"
+  max_bytes: 10485760  # 10MB
+  backup_count: 5

@@ -1,0 +1,27 @@
+# Core dependencies
+playwright>=1.40.0
+asyncio>=3.4.3
+aiofiles>=23.2.1
+pyyaml>=6.0.1
+
+# Data processing
+pandas>=2.1.0
+openpyxl>=3.1.2
+beautifulsoup4>=4.12.0
+lxml>=4.9.3
+
+# OCR engines
+paddleocr>=2.7.0
+pytesseract>=0.3.10
+Pillow>=10.1.0
+opencv-python>=4.8.1
+
+# Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+pytest-cov>=4.1.0
+hypothesis>=6.92.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.1

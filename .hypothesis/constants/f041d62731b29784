@@ -1,0 +1,4 @@
+# file: /Users/louis/PycharmProjects/Open Source/Playwright-Async-Crawler-Suite/Playwright-Async-Crawler-Suite/core/middleware.py
+# hypothesis_version: 6.150.1
+
+[1.0, 2.0, 3.0, 500, 1000, 2000, 10000, 30000, '#captcha', '.g-recaptcha', '.h-captcha', '.modal-close', 'DOM stabilized', 'anti_detection', 'backoff_factor', 'button.close', 'captcha', 'div[id*="captcha"]', 'hcaptcha', 'max', 'max_attempts', 'max_concurrent', 'min', 'networkidle', 'recaptcha', 'request_delay', 'retry', 'verify you are human']

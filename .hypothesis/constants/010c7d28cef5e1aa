@@ -1,0 +1,4 @@
+# file: /Users/louis/PycharmProjects/Open Source/Playwright-Async-Crawler-Suite/Playwright-Async-Crawler-Suite/core/browser.py
+# hypothesis_version: 6.150.1
+
+['#', '**/*', '--no-sandbox', 'Asia/Shanghai', 'BrowserManager', 'Launching browser...', '_initialized', 'args', 'block_resources', 'browser', 'headless', 'locale', 'r', 'stealth_script', 'timezone', 'user_agents_file', 'user_data_dir', 'utf-8', 'viewport', 'zh-CN']

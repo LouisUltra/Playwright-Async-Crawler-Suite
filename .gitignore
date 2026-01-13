@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Playwright
+.playwright/
+playwright-state.json
+
+# Chrome profiles
+chrome_profile/
+**/chrome_profile/
+
+# Output and logs
+output/
+logs/
+*.log
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+**/temp/
+data/temp/
+
+# Excel files (except samples)
+*.xlsx
+!config/sample_keywords.xlsx
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+
+# OS
+Thumbs.db
