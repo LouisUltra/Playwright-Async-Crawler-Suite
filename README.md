@@ -1,5 +1,7 @@
 # Playwright-Async-Crawler-Suite
 
+[English](README_EN.md) | 简体中文
+
 一个基于 Playwright 的高性能异步爬虫框架，专为复杂的反爬虫场景设计。
 
 ## ✨ 核心特性

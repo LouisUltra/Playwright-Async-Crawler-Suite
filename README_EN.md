@@ -1,5 +1,7 @@
 # Playwright-Async-Crawler-Suite
 
+English | [简体中文](README.md)
+
 A high-performance async web scraping framework based on Playwright, designed for complex anti-bot scenarios.
 
 ## ✨ Key Features
